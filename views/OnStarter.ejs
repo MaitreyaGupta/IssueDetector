@@ -1,0 +1,18 @@
+<%- include("header") %>
+<body> 
+<p>Issue Detector</p>
+<section class="Displayer">
+    <% defectedprojects1.forEach(function(defectedprojects){ %>
+            <n><%= defectedprojects.name %></n>
+            <form action="/IssuePage" method="post">
+                <input placeholder="State the type of bug" name="Bug"></input> 
+                <button type="submit">Here is post button</button>
+            </form>
+ <%})%>
+    </section>
+
+</body>
+
+
+
+  
