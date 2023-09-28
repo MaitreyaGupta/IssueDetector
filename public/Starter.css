@@ -1,0 +1,20 @@
+.InputForm{
+    box-shadow:inherit;
+    border:yellow green red;
+    background-color:aliceblue;
+    border: radius 13px;
+    border-bottom: 0cap;
+    border-color: aqua;
+    margin: auto;
+    margin: top 12%;
+}
+.Displayer{ 
+    box-shadow:inherit;
+    box-shadow:inset;
+    border:red green orange;
+    border: radius 13px; 
+    border-bottom: 0cap; 
+    border-color:azure;
+    margin:auto; 
+    margin:top 13%;
+}
