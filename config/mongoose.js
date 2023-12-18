@@ -1,5 +1,5 @@
 var mongoose=require("mongoose")
-mongoose.connect("mongodb+srv://maitreyaguptaa:killerman@devs.syeiknh.mongodb.net/issuetracker",{useNewUrlParser:true},{useUnifiedTopology:true})
+mongoose.connect("mongodb+srv://Maitreya:KillerMan@cluster0.sk6ugig.mongodb.net/",{useNewUrlParser:true},{useUnifiedTopology:true})
 
 const db=mongoose.connection
 
